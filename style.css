@@ -1,0 +1,10 @@
+#title {
+    font-size: 50px;
+}
+#title, .subtitle, .subtitle_posts {
+color: rgb(255, 0, 170);
+}
+.subtitle_posts {
+    font-style: italic;
+    font-size: 25px;
+}
