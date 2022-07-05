@@ -1,10 +1,26 @@
+body {
+    background-color: rgba(0, 255, 255, 0.416);
+}
 #title {
     font-size: 50px;
 }
+.subtitle { text-align: center;
+    
+}
 #title, .subtitle, .subtitle_posts {
-color: rgb(255, 0, 170);
+color: rgb(120, 32, 91);
 }
 .subtitle_posts {
+    text-align: center;
     font-style: italic;
-    font-size: 25px;
+    font-size: 25px;    
+}
+.posts {
+    background-color: blueviolet;
+    margin: 100px ;
+    border: 50px solid blue;
+    padding: 100px ;
+}
+.imagem {
+ text-align: center;
 }
