@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Flex Wrap</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            .flex_container{
+                flex-direction: row;
+                display: flex;                
+                border: solid 3px;                
+                height: 600px;
+                background-color: rgb(186, 234, 234);
+            }
+            .item {
+                align-self: center;
+                justify-content: center;                
+                align-items: center;
+                font-size: 35px;
+                color: aliceblue;
+                height: 20%;
+                text-align: center;
+                width: 25%;             
+                margin: 1px;
+                display: flex;
+            }
+            .blue{
+                background-color: blue;                
+            }
+            .red{
+                background-color: rgb(255, 21, 0);
+            }.green{
+                background-color: rgb(43, 255, 0);
+            }
+            .wrap{
+                flex-wrap: wrap;
+
+            }
+            .wrap_reverse{
+                flex-wrap: wrap-reverse;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Alinhamento dos itens com Flex Wrap</h1>
+        <div class="flex_container">
+            <div class="item blue">1</div>
+            <div class="item red">2</div>
+            <div class="item green">3</div>            
+        </div>
+        <div class="flex_container wrap">
+            <div class="item blue">1</div>
+            <div class="item red">2</div>
+            <div class="item green">3</div>            
+        </div>
+        <div class="flex_container wrap_reverse">
+            <div class="item blue">1</div>
+            <div class="item red">2</div>
+            <div class="item green">3</div>            
+        </div>
+        
+    </body>
+</html>
